@@ -1,0 +1,45 @@
+name: internet_free_server
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  dio: ^5.3.2
+  flutter_riverpod: ^2.3.6
+  hive: ^2.2.3
+  auto_route: ^7.8.0
+  url_strategy: ^0.2.0
+  data_table_2: ^2.5.6
+  intl: ^0.18.1
+  file_picker: ^5.5.0
+  excel:
+    git:
+      url: https://github.com/BST-Forked-Projects/excel.git
+  http: ^1.1.0
+  flutter_smart_dialog: ^4.9.4
+  google_fonts: ^5.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.2
+  auto_route_generator: ^7.3.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/logos/
+
+
+#flutter packages pub run build_runner build --delete-conflicting-outputs
